@@ -26,3 +26,23 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+button {
+  border-width: 3px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2%;
+}
+
+form {
+  margin: 5%;
+}
+
+input {
+  font-size: 20px;
+  margin: 1%;
+}
+
+p {
+  font-size: 20px;
+}
