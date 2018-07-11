@@ -22,10 +22,13 @@ class App extends Component {
 
     const title = "Welcome to Reactr App";
 
+    const author = "by Michael Fisch";
+
     return (
       // <MultiThemeProvider>
         <div className="App">
           <h1>{title}</h1>
+          <h2>{author}</h2>
           <Form onChange={fields => this.onChange(fields)}/>
             <p>{JSON.stringify(this.state.fields, null, 2)}
             </p>
