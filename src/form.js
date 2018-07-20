@@ -67,7 +67,7 @@ class Form extends React.Component {
       return isError
   }
 
-// Submit method
+// Submit & Clear form method
   onSubmit = (event) => {
     event.preventDefault()
     // this.props.onSubmit(this.state)
@@ -161,7 +161,7 @@ class Form extends React.Component {
         />
         </label>
         <br />
-        
+
       <button label="Submit" onClick={event => this.onSubmit(event)} type="primary">Submit</button>
     </form>
     )
